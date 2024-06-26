@@ -60,8 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Met à jour la diapositive et les points lorsque l'utilisateur clique sur un point
                 updateSlide(currentIndex);
                 updateDots(currentIndex);
-                console.log(`Clic sur le point ${index}`);
-            });
+               
             // Ajoute le point au conteneur des points
             dotsContainer.appendChild(dot);
         });
